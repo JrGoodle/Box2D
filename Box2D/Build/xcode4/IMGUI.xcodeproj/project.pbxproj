@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31ED862D3811938079960A487C6038F2337E79A3BE8771C0 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3899FF150F8D0A8AD57030E72C47DDA19225DB3AF79A6E8 /* imgui_demo.cpp */; };
+		645967151DF15502C65D09780EE8C2F47B966BEB7AEC4342 /* imgui_impl_glfw_gl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2241B128FE9C520AB7ABAA1196E937BC7FE5AF2CC530384A /* imgui_impl_glfw_gl3.cpp */; };
+		67BE47AE8E8C3372AF66CBC9D2DAD8E4694F3B25150211B2 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C68CBE73E5F6767AA05A219107C223ACC257C3644774CBA /* imgui_draw.cpp */; };
+		AA2900602650AF8F2346C3D31F6D9EA3B4A19A70D041938 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3BA34163FBA03F5DA68E45222527D078AFF737801E0 /* imgui.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2241B128FE9C520AB7ABAA1196E937BC7FE5AF2CC530384A /* imgui_impl_glfw_gl3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_glfw_gl3.cpp; path = ../../imgui/imgui_impl_glfw_gl3.cpp; sourceTree = "<group>"; };
+		2E45089B09A04C5A8126BB82B6BF98C73DDC65D6821229A /* stb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_textedit.h; path = ../../imgui/stb_textedit.h; sourceTree = "<group>"; };
+		3661ABC47A2682CA1DE56F011E79207C5A87DC6430B1690A /* imgui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../../imgui/imgui.h; sourceTree = "<group>"; };
+		45FF3BA34163FBA03F5DA68E45222527D078AFF737801E0 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../../imgui/imgui.cpp; sourceTree = "<group>"; };
+		6FD000F7B2C3368A378224CF244E4EFC4DFC54FD34F74CA /* libIMGUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIMGUI.a; path = libIMGUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AAEDE6F7CAAE0C86C454A10EDD493E8B048517FEF9444C /* imconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = ../../imgui/imconfig.h; sourceTree = "<group>"; };
+		7D75CB94EE4AAF0857432EB210165C3AC30E89574CCB8548 /* stb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = ../../imgui/stb_truetype.h; sourceTree = "<group>"; };
+		860B13A661E3C4DC8BDB293254F868E94CA4B7A63F32B1C /* stb_rect_pack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_rect_pack.h; path = ../../imgui/stb_rect_pack.h; sourceTree = "<group>"; };
+		B9CC9CB5371FE3484D26D05659BDAE67137FD37998CC474 /* imgui_impl_glfw_gl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui_impl_glfw_gl3.h; path = ../../imgui/imgui_impl_glfw_gl3.h; sourceTree = "<group>"; };
+		BAF1D63D82F70AA2B4C7E368D05A00D4765E531A467900E2 /* imgui_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = ../../imgui/imgui_internal.h; sourceTree = "<group>"; };
+		C68CBE73E5F6767AA05A219107C223ACC257C3644774CBA /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = ../../imgui/imgui_draw.cpp; sourceTree = "<group>"; };
+		D3899FF150F8D0A8AD57030E72C47DDA19225DB3AF79A6E8 /* imgui_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ../../imgui/imgui_demo.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8C00225AA5B76FA8AEACA00B718266CB38ADCD52C02953A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8A64BCD1F87AB1B5E4A9D67B9A41F8DA27E6AEB05DF695B /* IMGUI */ = {
+			isa = PBXGroup;
+			children = (
+				70AAEDE6F7CAAE0C86C454A10EDD493E8B048517FEF9444C /* imconfig.h */,
+				45FF3BA34163FBA03F5DA68E45222527D078AFF737801E0 /* imgui.cpp */,
+				3661ABC47A2682CA1DE56F011E79207C5A87DC6430B1690A /* imgui.h */,
+				D3899FF150F8D0A8AD57030E72C47DDA19225DB3AF79A6E8 /* imgui_demo.cpp */,
+				C68CBE73E5F6767AA05A219107C223ACC257C3644774CBA /* imgui_draw.cpp */,
+				2241B128FE9C520AB7ABAA1196E937BC7FE5AF2CC530384A /* imgui_impl_glfw_gl3.cpp */,
+				B9CC9CB5371FE3484D26D05659BDAE67137FD37998CC474 /* imgui_impl_glfw_gl3.h */,
+				BAF1D63D82F70AA2B4C7E368D05A00D4765E531A467900E2 /* imgui_internal.h */,
+				860B13A661E3C4DC8BDB293254F868E94CA4B7A63F32B1C /* stb_rect_pack.h */,
+				2E45089B09A04C5A8126BB82B6BF98C73DDC65D6821229A /* stb_textedit.h */,
+				7D75CB94EE4AAF0857432EB210165C3AC30E89574CCB8548 /* stb_truetype.h */,
+				DE2FD571A6C936B48E134D4D9B3FADE6BA17F9BDEA134CF4 /* Products */,
+			);
+			name = IMGUI;
+			sourceTree = "<group>";
+		};
+		DE2FD571A6C936B48E134D4D9B3FADE6BA17F9BDEA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD000F7B2C3368A378224CF244E4EFC4DFC54FD34F74CA /* libIMGUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31EF9B014D5965309711FF850CA3762F8647268D236DB70 /* IMGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C002249896BF598AEAC9FFA5536ECBB38ADCD41A3DDD99 /* Build configuration list for PBXNativeTarget "IMGUI" */;
+			buildPhases = (
+				E8C002291A42F79A8AEACA0426FFA70CB38ADCD89BEA15DA /* Resources */,
+				E8C0022983F010F18AEACA0490ACC063B38ADCD905972F31 /* Sources */,
+				E8C00225AA5B76FA8AEACA00B718266CB38ADCD52C02953A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMGUI;
+			productName = IMGUI;
+			productReference = 6FD000F7B2C3368A378224CF244E4EFC4DFC54FD34F74CA /* libIMGUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "IMGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = A8A64BCD1F87AB1B5E4A9D67B9A41F8DA27E6AEB05DF695B /* IMGUI */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31EF9B014D5965309711FF850CA3762F8647268D236DB70 /* libIMGUI.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8C002291A42F79A8AEACA0426FFA70CB38ADCD89BEA15DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8C0022983F010F18AEACA0490ACC063B38ADCD905972F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2900602650AF8F2346C3D31F6D9EA3B4A19A70D041938 /* imgui.cpp in Sources */,
+				31ED862D3811938079960A487C6038F2337E79A3BE8771C0 /* imgui_demo.cpp in Sources */,
+				67BE47AE8E8C3372AF66CBC9D2DAD8E4694F3B25150211B2 /* imgui_draw.cpp in Sources */,
+				645967151DF15502C65D09780EE8C2F47B966BEB7AEC4342 /* imgui_impl_glfw_gl3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1912EFBBA92CA0A4586002E0AA65EBC4A8A21348D24904A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					GLEW_STATIC,
+					GLFW_INCLUDE_GLCOREARB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Debug/IMGUI;
+				ONLY_ACTIVE_ARCH = YES;
+				SYMROOT = bin/Debug;
+				USER_HEADER_SEARCH_PATHS = (
+					../..,
+				);
+			};
+			name = Debug;
+		};
+		295AD1AAF17BA19F97594EB248090C1150A8504420821FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = bin/Debug;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = IMGUI;
+			};
+			name = Debug;
+		};
+		AAE5167A9ED54EC4BF52FD814220D7F615E37A325CF1A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					GLEW_STATIC,
+					GLFW_INCLUDE_GLCOREARB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Release/IMGUI;
+				ONLY_ACTIVE_ARCH = NO;
+				SYMROOT = bin/Release;
+				USER_HEADER_SEARCH_PATHS = (
+					../..,
+				);
+			};
+			name = Release;
+		};
+		E0B181E85ADA059F59CF455B53F6F4B3EB2A1BF904CAE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = bin/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = IMGUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "IMGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1912EFBBA92CA0A4586002E0AA65EBC4A8A21348D24904A /* Debug */,
+				AAE5167A9ED54EC4BF52FD814220D7F615E37A325CF1A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8C002249896BF598AEAC9FFA5536ECBB38ADCD41A3DDD99 /* Build configuration list for PBXNativeTarget "libIMGUI.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295AD1AAF17BA19F97594EB248090C1150A8504420821FDF /* Debug */,
+				E0B181E85ADA059F59CF455B53F6F4B3EB2A1BF904CAE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

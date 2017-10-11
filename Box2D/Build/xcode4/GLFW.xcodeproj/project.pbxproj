@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B977A0D44D8798CF49DF69275BC717E23DAC6188D4A7CC /* posix_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 63B8C2D24879D8F465C6C06E6EA008A67AD4EA61D5A6FF34 /* posix_tls.c */; };
+		1E73017DB5F89AD28C717E850C86054445C08016E4FF1912 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE97981D27E5DA7301C8F2098B80CF6236EFFA2055C1A /* window.c */; };
+		20A416584B7DD4ADB507F627E1DDEBC6796BEB771B93B8A /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = C03B2C5751AA26D2D4A9135DF4F5B0042B39900F0FC67D12 /* init.c */; };
+		2DACBA1416BC11A2717A6B3501A83794284DD395498DFFE2 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 70ECEC93614E84AA5870AFD005A1225C95131D3317D96AEA /* input.c */; };
+		3B890E2BF4554CCC231AEA6323E71BBE6C3097CCFEF45B0C /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = F4BC4BA8032B4634B2B2EA6DA6196CE62BC49B04353F4C74 /* context.c */; };
+		40687687013296BAF9B72241725537AC98CC8118281BE4FA /* egl_context.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E8658C11007E4236B6837E393B36F419E5B74B20D6C482 /* egl_context.c */; };
+		72CCE27E6DD6F06EBA756699B22595E0745DD5F4F44CCEAE /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = C29F36E3319109B69C6C9A00535CB6E8837F4A59011DFF6 /* cocoa_window.m */; };
+		ACAA5D7CDB508DEE8084557A6DDE57E0564608AED6B6FC2E /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA8771C85B1636AB9D265E8BC6D7E837A9BF45CA6A7C76 /* cocoa_monitor.m */; };
+		B2EB3239BCB35D5EE5231FE629DB6BD0321E71D82B6E5B9E /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8C27D826FD8DA6A9623503746083D86AF8A4B4EA7F83E6 /* cocoa_joystick.m */; };
+		CEC2A71748288B243CC1241E9EB5F596F61025B0772F0964 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 629FECFD3743520C3A2171F43AB4243E2914C464BC20C84C /* vulkan.c */; };
+		E56E7E1BD1AF39262D17023715FDDE98E6FF719258251766 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CCD3EDFF2EEDA387FEA60ABA0204603DA8F9D60C92E /* nsgl_context.m */; };
+		E8840527E12E8A661D1BB7BCDAF046D811801D9D14EF48A6 /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D7A30B931A922E9E5B7849DB8B76602F9BECB3202A486E /* cocoa_init.m */; };
+		FC2FB2EFDCB06CA830C76584D672291A252BCB6510712AE8 /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = C7516AD2A6CD415084D54010EF3E25821615B47A33DCF790 /* cocoa_time.c */; };
+		FEDE85D1CCAE7192E6706208FC4040842F860F72D74D7FD2 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D0E6B45ED5739AB7C7857A01C39A4C30D9361090E979DA /* monitor.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		284114644EB86DEC560F325676F3269E393E66235E8EB42C /* egl_context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = egl_context.h; path = ../../glfw/egl_context.h; sourceTree = "<group>"; };
+		28EA8771C85B1636AB9D265E8BC6D7E837A9BF45CA6A7C76 /* cocoa_monitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = cocoa_monitor.m; path = ../../glfw/cocoa_monitor.m; sourceTree = "<group>"; };
+		2FAE97981D27E5DA7301C8F2098B80CF6236EFFA2055C1A /* window.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = window.c; path = ../../glfw/window.c; sourceTree = "<group>"; };
+		397B0AE4CE216592335118101B845BC4F4E787C191A35BD2 /* iokit_joystick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iokit_joystick.h; path = ../../glfw/iokit_joystick.h; sourceTree = "<group>"; };
+		56555C6FFB2B399F2DD6E166FE9C0BD11CCA33D78008AFDF /* libGLFW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGLFW.a; path = libGLFW.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A1B5A4B91DCA9A482578E15D70684C84C7E6446FA8B0DA /* glfw3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glfw3.h; path = ../../glfw/glfw3.h; sourceTree = "<group>"; };
+		629FECFD3743520C3A2171F43AB4243E2914C464BC20C84C /* vulkan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = vulkan.c; path = ../../glfw/vulkan.c; sourceTree = "<group>"; };
+		63B8C2D24879D8F465C6C06E6EA008A67AD4EA61D5A6FF34 /* posix_tls.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = posix_tls.c; path = ../../glfw/posix_tls.c; sourceTree = "<group>"; };
+		6B1CCD3EDFF2EEDA387FEA60ABA0204603DA8F9D60C92E /* nsgl_context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = nsgl_context.m; path = ../../glfw/nsgl_context.m; sourceTree = "<group>"; };
+		70ECEC93614E84AA5870AFD005A1225C95131D3317D96AEA /* input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = input.c; path = ../../glfw/input.c; sourceTree = "<group>"; };
+		7FFAAFCDF7F7554679D0BCF9455A4B783B672CAABB794B86 /* cocoa_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cocoa_platform.h; path = ../../glfw/cocoa_platform.h; sourceTree = "<group>"; };
+		8E8658C11007E4236B6837E393B36F419E5B74B20D6C482 /* egl_context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = egl_context.c; path = ../../glfw/egl_context.c; sourceTree = "<group>"; };
+		AF8C27D826FD8DA6A9623503746083D86AF8A4B4EA7F83E6 /* cocoa_joystick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = cocoa_joystick.m; path = ../../glfw/cocoa_joystick.m; sourceTree = "<group>"; };
+		C03B2C5751AA26D2D4A9135DF4F5B0042B39900F0FC67D12 /* init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = init.c; path = ../../glfw/init.c; sourceTree = "<group>"; };
+		C29F36E3319109B69C6C9A00535CB6E8837F4A59011DFF6 /* cocoa_window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = cocoa_window.m; path = ../../glfw/cocoa_window.m; sourceTree = "<group>"; };
+		C7516AD2A6CD415084D54010EF3E25821615B47A33DCF790 /* cocoa_time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = cocoa_time.c; path = ../../glfw/cocoa_time.c; sourceTree = "<group>"; };
+		D72C803845983B5ED93A7DD46BBE6B10EE48A7C7D2C5619E /* posix_tls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = posix_tls.h; path = ../../glfw/posix_tls.h; sourceTree = "<group>"; };
+		D79B8CFEA2AE39C8569AAF0CAE8F27AE898DEBDB2848008 /* glfw3native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glfw3native.h; path = ../../glfw/glfw3native.h; sourceTree = "<group>"; };
+		E0D7A30B931A922E9E5B7849DB8B76602F9BECB3202A486E /* cocoa_init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = cocoa_init.m; path = ../../glfw/cocoa_init.m; sourceTree = "<group>"; };
+		E2FB69891D9B4B2EF914D04334ADE660FD5500BA24C9E16E /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = internal.h; path = ../../glfw/internal.h; sourceTree = "<group>"; };
+		E3C1E06D2915CDE3C0A3BF8FACC15901F396FC5E267A31E /* glfw_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glfw_config.h; path = ../../glfw/glfw_config.h; sourceTree = "<group>"; };
+		F4BC4BA8032B4634B2B2EA6DA6196CE62BC49B04353F4C74 /* context.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = context.c; path = ../../glfw/context.c; sourceTree = "<group>"; };
+		F5FC92ED55795EA4CFC9F60A77450BD63B9550AFB3FA34E4 /* nsgl_context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = nsgl_context.h; path = ../../glfw/nsgl_context.h; sourceTree = "<group>"; };
+		F9D0E6B45ED5739AB7C7857A01C39A4C30D9361090E979DA /* monitor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = monitor.c; path = ../../glfw/monitor.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F3035E06E5B378F839E1CE711A6C0C1DA2E99982C778DCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AEDC4285D15B2F0B5481434CE5C6122908F77865C4EA930 /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				E0D7A30B931A922E9E5B7849DB8B76602F9BECB3202A486E /* cocoa_init.m */,
+				AF8C27D826FD8DA6A9623503746083D86AF8A4B4EA7F83E6 /* cocoa_joystick.m */,
+				28EA8771C85B1636AB9D265E8BC6D7E837A9BF45CA6A7C76 /* cocoa_monitor.m */,
+				7FFAAFCDF7F7554679D0BCF9455A4B783B672CAABB794B86 /* cocoa_platform.h */,
+				C7516AD2A6CD415084D54010EF3E25821615B47A33DCF790 /* cocoa_time.c */,
+				C29F36E3319109B69C6C9A00535CB6E8837F4A59011DFF6 /* cocoa_window.m */,
+				F4BC4BA8032B4634B2B2EA6DA6196CE62BC49B04353F4C74 /* context.c */,
+				8E8658C11007E4236B6837E393B36F419E5B74B20D6C482 /* egl_context.c */,
+				284114644EB86DEC560F325676F3269E393E66235E8EB42C /* egl_context.h */,
+				60A1B5A4B91DCA9A482578E15D70684C84C7E6446FA8B0DA /* glfw3.h */,
+				D79B8CFEA2AE39C8569AAF0CAE8F27AE898DEBDB2848008 /* glfw3native.h */,
+				E3C1E06D2915CDE3C0A3BF8FACC15901F396FC5E267A31E /* glfw_config.h */,
+				C03B2C5751AA26D2D4A9135DF4F5B0042B39900F0FC67D12 /* init.c */,
+				70ECEC93614E84AA5870AFD005A1225C95131D3317D96AEA /* input.c */,
+				E2FB69891D9B4B2EF914D04334ADE660FD5500BA24C9E16E /* internal.h */,
+				397B0AE4CE216592335118101B845BC4F4E787C191A35BD2 /* iokit_joystick.h */,
+				F9D0E6B45ED5739AB7C7857A01C39A4C30D9361090E979DA /* monitor.c */,
+				F5FC92ED55795EA4CFC9F60A77450BD63B9550AFB3FA34E4 /* nsgl_context.h */,
+				6B1CCD3EDFF2EEDA387FEA60ABA0204603DA8F9D60C92E /* nsgl_context.m */,
+				63B8C2D24879D8F465C6C06E6EA008A67AD4EA61D5A6FF34 /* posix_tls.c */,
+				D72C803845983B5ED93A7DD46BBE6B10EE48A7C7D2C5619E /* posix_tls.h */,
+				629FECFD3743520C3A2171F43AB4243E2914C464BC20C84C /* vulkan.c */,
+				2FAE97981D27E5DA7301C8F2098B80CF6236EFFA2055C1A /* window.c */,
+				DE2FD571A6C936B48E134D4D9B3FADE6BA17F9BDEA134CF4 /* Products */,
+			);
+			name = GLFW;
+			sourceTree = "<group>";
+		};
+		DE2FD571A6C936B48E134D4D9B3FADE6BA17F9BDEA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56555C6FFB2B399F2DD6E166FE9C0BD11CCA33D78008AFDF /* libGLFW.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EBD57F56E92D9A556B982C69D392D9727A99C8BF67A87E5 /* GLFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F3035DF5C967FEE839E1CE5FFE20920DA2E99971AB2D62E /* Build configuration list for PBXNativeTarget "GLFW" */;
+			buildPhases = (
+				6F3035E3DE42B82F839E1CEA818E4161DA2E999B9C5F0E6F /* Resources */,
+				6F3035E447EFD186839E1CEAEB3B5AB8DA2E999C060C27C6 /* Sources */,
+				6F3035E06E5B378F839E1CE711A6C0C1DA2E99982C778DCF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLFW;
+			productName = GLFW;
+			productReference = 56555C6FFB2B399F2DD6E166FE9C0BD11CCA33D78008AFDF /* libGLFW.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "GLFW" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 4AEDC4285D15B2F0B5481434CE5C6122908F77865C4EA930 /* GLFW */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EBD57F56E92D9A556B982C69D392D9727A99C8BF67A87E5 /* libGLFW.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F3035E3DE42B82F839E1CEA818E4161DA2E999B9C5F0E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F3035E447EFD186839E1CEAEB3B5AB8DA2E999C060C27C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8840527E12E8A661D1BB7BCDAF046D811801D9D14EF48A6 /* cocoa_init.m in Sources */,
+				B2EB3239BCB35D5EE5231FE629DB6BD0321E71D82B6E5B9E /* cocoa_joystick.m in Sources */,
+				ACAA5D7CDB508DEE8084557A6DDE57E0564608AED6B6FC2E /* cocoa_monitor.m in Sources */,
+				FC2FB2EFDCB06CA830C76584D672291A252BCB6510712AE8 /* cocoa_time.c in Sources */,
+				72CCE27E6DD6F06EBA756699B22595E0745DD5F4F44CCEAE /* cocoa_window.m in Sources */,
+				3B890E2BF4554CCC231AEA6323E71BBE6C3097CCFEF45B0C /* context.c in Sources */,
+				40687687013296BAF9B72241725537AC98CC8118281BE4FA /* egl_context.c in Sources */,
+				20A416584B7DD4ADB507F627E1DDEBC6796BEB771B93B8A /* init.c in Sources */,
+				2DACBA1416BC11A2717A6B3501A83794284DD395498DFFE2 /* input.c in Sources */,
+				FEDE85D1CCAE7192E6706208FC4040842F860F72D74D7FD2 /* monitor.c in Sources */,
+				E56E7E1BD1AF39262D17023715FDDE98E6FF719258251766 /* nsgl_context.m in Sources */,
+				1B977A0D44D8798CF49DF69275BC717E23DAC6188D4A7CC /* posix_tls.c in Sources */,
+				CEC2A71748288B243CC1241E9EB5F596F61025B0772F0964 /* vulkan.c in Sources */,
+				1E73017DB5F89AD28C717E850C86054445C08016E4FF1912 /* window.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228FF745E9ADA779E51EEEC23C33D26B8AA730990E7835B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Release/GLFW;
+				ONLY_ACTIVE_ARCH = NO;
+				SYMROOT = bin/Release;
+			};
+			name = Release;
+		};
+		392E68B3256BE9B4F6B23DF16DDCCDE687F2B25AB27B9FF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = bin/Debug;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GLFW;
+			};
+			name = Debug;
+		};
+		6120920376D041AE8EEEAFF59F0AFA60721DE3C286A687EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = bin/Release;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GLFW;
+			};
+			name = Release;
+		};
+		D1B89935BEA3717F7E727100F75E37F1A3C437586F56FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/Debug/GLFW;
+				ONLY_ACTIVE_ARCH = YES;
+				SYMROOT = bin/Debug;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B89935BEA3717F7E727100F75E37F1A3C437586F56FBF /* Debug */,
+				228FF745E9ADA779E51EEEC23C33D26B8AA730990E7835B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F3035DF5C967FEE839E1CE5FFE20920DA2E99971AB2D62E /* Build configuration list for PBXNativeTarget "libGLFW.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392E68B3256BE9B4F6B23DF16DDCCDE687F2B25AB27B9FF4 /* Debug */,
+				6120920376D041AE8EEEAFF59F0AFA60721DE3C286A687EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+};
+rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
